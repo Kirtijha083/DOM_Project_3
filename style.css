@@ -24,9 +24,11 @@ html, body{
 .cursor{
     height: 20px;
     width: 20px;
-    background-color: red;
+    background-color: white;
+    mix-blend-mode: difference; /* this mean when cursor is on text they both not mix with each other */
     border-radius: 50%;
     position:absolute;
+    transition: all linear 0.2s;
 }
 
 h1{
